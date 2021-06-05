@@ -1,0 +1,22 @@
+$color-gray: gray;
+
+body {
+  color: $color-gray;
+
+  background-image: url("https://i.ibb.co/NmxmFfx/stranger-things.png");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 2.5em;
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 81.25%;
+  }
+}
